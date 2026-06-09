@@ -1,22 +1,17 @@
-![Course Sim](https://img.shields.io/badge/Course-Sim-Interactive_AI-blueviolet)
+<p align="center">
 
-![AI Foundation](https://img.shields.io/badge/AI-Foundation-red)
+<img src="https://img.shields.io/badge/Course--Sim-Interactive_AI-blueviolet">
+<img src="https://img.shields.io/badge/AI-Foundation-red">
+<img src="https://img.shields.io/badge/React-19-61DAFB">
+<img src="https://img.shields.io/badge/TypeScript-5-3178C6">
+<img src="https://img.shields.io/badge/Vite-Fast-646CFF">
+<img src="https://img.shields.io/badge/Tailwind-CSS-06B6D4">
+<img src="https://img.shields.io/badge/Learning-Interactive-green">
+<img src="https://img.shields.io/badge/License-MIT-success">
+<img src="https://img.shields.io/badge/Status-Active-brightgreen">
 
-![React](https://img.shields.io/badge/React-19-61DAFB)
+</p>
 
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6)
-
-![Vite](https://img.shields.io/badge/Vite-Fast-646CFF)
-
-![Tailwind](https://img.shields.io/badge/Tailwind-CSS-06B6D4)
-
-![Learning](https://img.shields.io/badge/Learning-Interactive-green)
-
-![License](https://img.shields.io/badge/License-MIT-success)
-
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-
-# Course-Sim
 # Course-Sim
 
 Interactive educational simulations for learning **AI Foundation concepts** in a visual and practical way.
