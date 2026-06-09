@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #6366f1;
+  --color-primary-dark: #4f46e5;
+  --color-primary-light: #a5b4fc;
+  --color-purple-dark: #7c3aed;
+  --color-purple-light: #c084fc;
+  --color-accent: #06b6d4;
+  --color-accent-dark: #0891b2;
+  --color-surface: #f8fafc;
+  --color-surface-dark: #0f172a;
+  --color-card: #ffffff;
+  --color-card-dark: #1e293b;
+  --color-success: #22c55e;
+  --color-error: #ef4444;
+  --color-warning: #f59e0b;
+  --color-text-primary: #1e293b;
+  --color-text-secondary: #64748b;
+  --color-text-dark: #f1f5f9;
+  --color-text-dark-secondary: #94a3b8;
+  --color-border-light: #e2e8f0;
+  --color-border-dark: #334155;
+}
+
+* {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.dark body {
+  background: #0f172a;
+  color: #f1f5f9;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 5px rgba(99, 102, 241, 0.3); }
+  50% { box-shadow: 0 0 20px rgba(99, 102, 241, 0.6); }
+}
+
+@keyframes confetti-fall {
+  0% { transform: translateY(-100vh) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+}
+
+.animate-float { animation: float 3s ease-in-out infinite; }
+.animate-pulse-glow { animation: pulse-glow 2s ease-in-out infinite; }
+
+.drag-over {
+  background: rgba(99, 102, 241, 0.1) !important;
+  border-color: #6366f1 !important;
+}

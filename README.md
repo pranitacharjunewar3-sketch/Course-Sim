@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
 
 <img src="https://img.shields.io/badge/Course--Sim-Interactive_AI-blueviolet">
@@ -226,3 +227,82 @@ MIT License
 ---
 
 Created with ❤️ for AI Education
+=======
+# Course-Sim — Interactive Computer Science Simulations
+
+Interactive educational web app with four simulation tracks for learning computer science concepts visually in **Nepali Romanized** language.
+
+## 🎯 Tracks
+
+| Track | Description |
+|-------|-------------|
+| 📊 **Data Types** | Learn structured vs unstructured data through content-based classification |
+| 💻 **Programming** | Visual programming flow — build, debug, execute code step by step |
+| 🧠 **Algorithms** | Step-by-step algorithms — sorting, pathfinding, decision trees |
+| 🤖 **Machine Learning** | ML concepts — training, prediction, data quality, classification |
+
+## ✨ Features
+
+- **Nepali Romanized** language throughout
+- **Drag-and-drop** interactive simulations
+- **Gamified XP system** with level progression (Beginner → Explorer → Master)
+- **Dark mode** support
+- **Responsive** — mobile + desktop
+- **Progress persistence** (localStorage)
+- **Lazy-loaded** code-split chunks for fast loading
+- **Error boundaries** — no white screen crashes
+
+## 🛠 Tech Stack
+
+- **React 19** + **TypeScript**
+- **Vite** (build tool)
+- **Tailwind CSS v4** (styling)
+- **Framer Motion** (animations)
+- **Zustand** (state management)
+- **React DnD** (drag-and-drop)
+- **Lucide React** (icons)
+
+## 🚀 Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+
+# Production build
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## 📁 Project Structure
+
+```
+src/
+├── algorithms/     # Algorithms simulation
+├── components/     # Shared UI components
+├── hooks/          # Custom hooks (useLocalStorage)
+├── ml/             # Machine Learning simulation
+├── programming/    # Programming simulation
+├── store/          # Zustand state store
+├── types/          # TypeScript types
+├── utils/          # Mock data
+└── App.tsx         # Root component with routing
+```
+
+## 🌐 Deployment
+
+Built output goes to `dist/`. Deploy to any static host:
+
+- [Netlify](https://netlify.com)
+- [Vercel](https://vercel.com)
+- [Cloudflare Pages](https://pages.cloudflare.com)
+- [GitHub Pages](https://pages.github.com)
+
+## 📄 License
+
+MIT
+>>>>>>> 2ece2db (Initial upload: Course-Sim educational simulations)
