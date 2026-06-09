@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   ChevronLeft, ChevronRight, Trophy, Play, ArrowRight, CheckCircle2,
-  Cpu, Brain, Award, GripVertical, Sparkles, Zap, AlertTriangle, RefreshCw,
+  Cpu, Award, GripVertical, Sparkles, Zap, AlertTriangle, RefreshCw,
 } from 'lucide-react';
 import { useGameStore } from '../store/gameStore';
 import { useLocalStorage } from '../hooks/useLocalStorage';

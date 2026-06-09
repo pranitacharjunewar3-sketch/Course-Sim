@@ -14,6 +14,7 @@ const screenNames: Record<Screen, string> = {
   summary: 'Summary',
   programming: 'Programming',
   algorithms: 'Algorithms',
+  ml: 'Machine Learning',
 };
 
 export default function Navbar() {

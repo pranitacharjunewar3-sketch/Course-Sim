@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { ChevronLeft, ChevronRight, Trophy, Play, ArrowRight, CheckCircle2, Cpu, Route, Brain, Target, Award, Shuffle, GripVertical } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Trophy, Play, ArrowRight, CheckCircle2, Route, Target, Award, GripVertical } from 'lucide-react';
 import { useGameStore } from '../store/gameStore';
 
 type AlgScreen = 'intro' | 'daily' | 'steps' | 'exec' | 'sort' | 'path' | 'decision' | 'build' | 'challenge' | 'ai';
@@ -315,7 +315,7 @@ function SortAlg({ onNext, addXp }: { onNext: () => void; addXp: (n: number) => 
           className={`min-h-[120px] rounded-2xl border-2 border-dashed p-3 ${dragOver ? 'border-amber-500 bg-amber-50' : 'border-border-light bg-white/40'}`}>
           <h3 className="text-xs font-bold mb-2">Sorted:</h3>
           <div className="flex flex-wrap gap-2">
-            {sorted.map((n, i) => (
+            {sorted.map((n) => (
               <motion.div key={n} initial={{ scale: 0 }} animate={{ scale: 1 }}
                 className={`w-10 h-10 flex items-center justify-center rounded-xl text-sm font-bold border-2 ${
                   isCorrectOrder ? 'border-green-400 bg-green-50 text-green-700' : 'border-red-400 bg-red-50 text-red-700'
