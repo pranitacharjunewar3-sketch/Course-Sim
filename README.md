@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <p align="center">
 
 <img src="https://img.shields.io/badge/Course--Sim-Interactive_AI-blueviolet">
